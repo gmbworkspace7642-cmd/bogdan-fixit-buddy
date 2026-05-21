@@ -78,6 +78,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Trusted local handyman services in Harrow. Plumbing, electrical, carpentry & more.",
       },
+      { property: "og:title", content: "Bogdan Handyman — Reliable Home Repairs in Harrow" },
+      { name: "twitter:title", content: "Bogdan Handyman — Reliable Home Repairs in Harrow" },
+      { name: "description", content: "Bogdan Handyman offers professional home repair and maintenance services with a focus on reliability and customer satisfaction." },
+      { property: "og:description", content: "Bogdan Handyman offers professional home repair and maintenance services with a focus on reliability and customer satisfaction." },
+      { name: "twitter:description", content: "Bogdan Handyman offers professional home repair and maintenance services with a focus on reliability and customer satisfaction." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/970e381e-257e-4eeb-aadd-88259e126aa4/id-preview-217a52ad--7dcdb144-8363-40a4-a1a4-adf6f0643ee5.lovable.app-1779279508139.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/970e381e-257e-4eeb-aadd-88259e126aa4/id-preview-217a52ad--7dcdb144-8363-40a4-a1a4-adf6f0643ee5.lovable.app-1779279508139.png" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
